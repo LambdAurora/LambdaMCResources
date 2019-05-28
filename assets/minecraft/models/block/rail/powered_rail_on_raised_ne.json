@@ -1,0 +1,7 @@
+{
+  "__comment": "Model made by LambdAurora",
+  "parent": "block/rail/powered_rail_raised_ne",
+  "textures": {
+    "rail": "block/powered_rail_on"
+  }
+}
