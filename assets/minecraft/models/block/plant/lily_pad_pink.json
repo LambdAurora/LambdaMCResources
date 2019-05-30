@@ -1,0 +1,538 @@
+{
+  "__comment": "Model made by LambdAurora",
+  "parent": "block/plant/lily_pad",
+  "textures": {
+    "flower": "block/plant/lily_pad_flower"
+  },
+  "elements": [
+    {
+      "name": "Base",
+      "from": [ 1.5, 0, 5 ],
+      "to": [ 14.5, 0.5, 9.5 ],
+      "faces": {
+        "north": {"uv": [ 1.5, 5.5, 14.5, 6 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 14.5, 5, 14, 6 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 14.5, 9, 1.5, 9.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 1.5, 5, 2, 6 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 14.5, 5, 1.5, 9.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 1.5, 5, 14.5, 9.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South 1",
+      "from": [ 2, 0, 9.5 ],
+      "to": [ 14, 0.5, 11 ],
+      "faces": {
+        "east":  {"uv": [ 13.5, 9.5, 14, 11 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 14, 10.5, 2, 11 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 2, 9.5, 2.5, 11 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 14, 9.5, 2, 11 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 2, 9.5, 14, 11 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South 2",
+      "from": [ 2.5, 0, 11 ],
+      "to": [ 13.5, 0.5, 12 ],
+      "faces": {
+        "east":  {"uv": [ 13, 11, 13.5, 12 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 13.5, 11.5, 2.5, 12 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 2.5, 11, 3, 12 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 13.5, 11, 2.5, 12 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 2.5, 11, 13.5, 12 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South 3",
+      "from": [ 3, 0, 12 ],
+      "to": [ 13, 0.5, 12.5 ],
+      "faces": {
+        "east":  {"uv": [ 12.5, 12, 13, 12.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 13, 12, 3, 12.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 3, 12, 3.5, 12.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 13, 12, 3, 12.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 3, 12, 13, 12.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South 4",
+      "from": [ 3.5, 0, 12.5 ],
+      "to": [ 12.5, 0.5, 13 ],
+      "faces": {
+        "east":  {"uv": [ 12, 12.5, 12.5, 13 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 12.5, 12.5, 3.5, 13 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 3.5, 12.5, 4, 13 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 12.5, 12.5, 3.5, 13 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 3.5, 12.5, 12.5, 13 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South 5",
+      "from": [ 4, 0, 13 ],
+      "to": [ 12, 0.5, 13.5 ],
+      "faces": {
+        "east":  {"uv": [ 11.5, 13, 12, 13.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 12, 13, 4, 13.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 4, 13, 4.5, 13.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 12, 13, 4, 13.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 4, 13, 12, 13.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South 6",
+      "from": [ 5, 0, 13.5 ],
+      "to": [ 11, 0.5, 14 ],
+      "faces": {
+        "east":  {"uv": [ 10.5, 13.5, 11, 14 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 11, 13.5, 5, 14 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 5, 13.5, 5.5, 14 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 11, 13.5, 5, 14 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 5, 13.5, 11, 14 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "South",
+      "from": [ 6.5, 0, 14 ],
+      "to": [ 9.5, 0.5, 14.5 ],
+      "faces": {
+        "east":  {"uv": [ 9, 14, 9.5, 14.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "south": {"uv": [ 9.5, 14, 6.5, 14.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 6.5, 14, 7, 14.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 9.5, 14, 6.5, 14.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 6.5, 14, 9.5, 14.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "West 1",
+      "from": [ 2, 0, 4 ],
+      "to": [ 7.5, 0.5, 5 ],
+      "faces": {
+        "north": {"uv": [ 8.5, 4.5, 14, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 13.5, 4, 14, 5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 8.5, 4, 9, 5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 14, 4, 8.5, 5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 8.5, 4, 14, 5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "East 1",
+      "from": [ 8.5, 0, 4 ],
+      "to": [ 14, 0.5, 5 ],
+      "faces": {
+        "north": {"uv": [ 2, 4.5, 7.5, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 7, 4, 7.5, 5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 2, 4, 2.5, 5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 7.5, 4, 2, 5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 2, 4, 7.5, 5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "West 2",
+      "from": [ 2, 0, 3.5 ],
+      "to": [ 7, 0.5, 4 ],
+      "faces": {
+        "north": {"uv": [ 9, 4, 14, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 13.5, 3.5, 14, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 9, 3.5, 9.5, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 14, 3.5, 9, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 9, 3.5, 14, 4 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "East 2",
+      "from": [ 9, 0, 3.5 ],
+      "to": [ 14, 0.5, 4 ],
+      "faces": {
+        "north": {"uv": [ 2, 4, 7, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 6.5, 3.5, 7, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 2, 3.5, 2.5, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 7, 3.5, 2, 4 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 2, 3.5, 7, 4 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "West 3",
+      "from": [ 2.5, 0, 3 ],
+      "to": [ 7, 0.5, 3.5 ],
+      "faces": {
+        "north": {"uv": [ 9, 3.5, 13.5, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 13, 3, 13.5, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 9, 3, 9.5, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 13.5, 3, 9, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 9, 3, 13.5, 3.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "East 3",
+      "from": [ 9, 0, 3 ],
+      "to": [ 13.5, 0.5, 3.5 ],
+      "faces": {
+        "north": {"uv": [ 2.5, 3.5, 7, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 6.5, 3, 7, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 2.5, 3, 3, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 7, 3, 2.5, 3.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 2.5, 3, 7, 3.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "West 4",
+      "from": [ 2.5, 0, 2.5 ],
+      "to": [ 6.5, 0.5, 3 ],
+      "faces": {
+        "north": {"uv": [ 9.5, 3, 13.5, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 13, 2.5, 13.5, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 9.5, 2.5, 10, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 13.5, 2.5, 9.5, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 9.5, 2.5, 13.5, 3 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "East 4",
+      "from": [ 9.5, 0, 2.5 ],
+      "to": [ 13.5, 0.5, 3 ],
+      "faces": {
+        "north": {"uv": [ 2.5, 3, 6.5, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 6, 2.5, 6.5, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 2.5, 2.5, 3, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 6.5, 2.5, 2.5, 3 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 2.5, 2.5, 6.5, 3 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "West 5",
+      "from": [ 3, 0, 2 ],
+      "to": [ 6.5, 0.5, 2.5 ],
+      "faces": {
+        "north": {"uv": [ 9.5, 2.5, 13, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 12.5, 2, 13, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 9.5, 2, 10, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 13, 2, 9.5, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 9.5, 2, 13, 2.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "East 5",
+      "from": [ 9.5, 0, 2 ],
+      "to": [ 13, 0.5, 2.5 ],
+      "faces": {
+        "north": {"uv": [ 3, 2.5, 6.5, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 6, 2, 6.5, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 3, 2, 3.5, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 6.5, 2, 3, 2.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 3, 2, 6.5, 2.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "West 6",
+      "from": [ 3.5, 0, 1.5 ],
+      "to": [ 6, 0.5, 2 ],
+      "faces": {
+        "north": {"uv": [ 10, 2, 12.5, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 12, 1.5, 12.5, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 10, 1.5, 10.5, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 12.5, 1.5, 10, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 10, 1.5, 12.5, 2 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "East 6",
+      "from": [ 10, 0, 1.5 ],
+      "to": [ 12.5, 0.5, 2 ],
+      "faces": {
+        "north": {"uv": [ 3.5, 2, 6, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 5.5, 1.5, 6, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 3.5, 1.5, 4, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 6, 1.5, 3.5, 2 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 3.5, 1.5, 6, 2 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "North West",
+      "from": [ 4, 0, 1 ],
+      "to": [ 5.5, 0.5, 1.5 ],
+      "faces": {
+        "north": {"uv": [ 10.5, 1.5, 12, 1 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 11.5, 1, 12, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 10.5, 1, 11, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 12, 1, 10.5, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 10.5, 1, 12, 1.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "North East",
+      "from": [ 10.5, 0, 1 ],
+      "to": [ 12, 0.5, 1.5 ],
+      "faces": {
+        "north": {"uv": [ 4, 1.5, 5.5, 1 ], "texture": "#lily_pad", "tintindex": 0},
+        "east":  {"uv": [ 5, 1, 5.5, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "west":  {"uv": [ 4, 1, 4.5, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "up":    {"uv": [ 5.5, 1, 4, 1.5 ], "texture": "#lily_pad", "tintindex": 0},
+        "down":  {"uv": [ 4, 1, 5.5, 1.5 ], "texture": "#lily_pad", "tintindex": 0, "cullface": "down"}
+      }
+    },
+    {
+      "name": "Flower core",
+      "from": [ 7.5, 0.5, 6 ],
+      "to": [ 8.5, 1, 7 ],
+      "faces": {
+        "up":    {"uv": [ 1, 0, 2, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower north lower petal",
+      "from": [ 7.5, 0.5, 5 ],
+      "to": [ 8.5, 1.25, 6 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower east lower petal",
+      "from": [ 8.5, 0.5, 6 ],
+      "to": [ 9.5, 1.25, 7 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower south lower petal",
+      "from": [ 7.5, 0.5, 7 ],
+      "to": [ 8.5, 1.25, 8 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower west lower petal",
+      "from": [ 6.5, 0.5, 6 ],
+      "to": [ 7.5, 1.25, 7 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower north west lower petal",
+      "from": [ 7, 0.75, 5.5 ],
+      "to": [ 7.5, 1.25, 6 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower north east lower petal",
+      "from": [ 8.5, 0.75, 5.5 ],
+      "to": [ 9, 1.25, 6 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower south east lower petal",
+      "from": [ 8.5, 0.75, 7 ],
+      "to": [ 9, 1.25, 7.5 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower south west lower petal",
+      "from": [ 7, 0.75, 7 ],
+      "to": [ 7.5, 1.25, 7.5 ],
+      "faces": {
+        "north": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 3, 0, 4, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower north east higher petal",
+      "from": [ 8.5, 0.75, 5 ],
+      "to": [ 9, 1.5, 5.5 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower east north higher petal",
+      "from": [ 9, 0.75, 5.5 ],
+      "to": [ 9.5, 1.5, 6 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower east south higher petal",
+      "from": [ 9, 0.75, 7 ],
+      "to": [ 9.5, 1.5, 7.5 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower south east higher petal",
+      "from": [ 8.5, 0.75, 7.5 ],
+      "to": [ 9, 1.5, 8 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower south west higher petal",
+      "from": [ 7, 0.75, 7.5 ],
+      "to": [ 7.5, 1.5, 8 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower west south higher petal",
+      "from": [ 6.5, 0.75, 7 ],
+      "to": [ 7, 1.5, 7.5 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower west north higher petal",
+      "from": [ 6.5, 0.75, 5.5 ],
+      "to": [ 7, 1.5, 6 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower north west higher petal",
+      "from": [ 7, 0.75, 5 ],
+      "to": [ 7.5, 1.5, 5.5 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower north higher petal",
+      "from": [ 7.5, 1, 4.5 ],
+      "to": [ 8.5, 1.75, 5 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower east higher petal",
+      "from": [ 9.5, 1, 6 ],
+      "to": [ 10, 1.75, 7 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower south higher petal",
+      "from": [ 7.5, 1, 8 ],
+      "to": [ 8.5, 1.75, 8.5 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    },
+    {
+      "name": "Flower west higher petal",
+      "from": [ 6, 1, 6 ],
+      "to": [ 6.5, 1.75, 7 ],
+      "faces": {
+        "north": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "east":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "south": {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "west":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "up":    {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"},
+        "down":  {"uv": [ 2, 0, 3, 1 ], "texture": "#flower"}
+      }
+    }
+  ]
+}

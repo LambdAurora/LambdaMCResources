@@ -1,5 +1,4 @@
 {
-  "__comment": "Model made by LambdAurora",
   "parent": "item/generated",
   "textures": {
     "layer0": "item/bone"

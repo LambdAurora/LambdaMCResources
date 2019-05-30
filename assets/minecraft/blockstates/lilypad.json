@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/plant/lily_pad" },
+      { "model": "block/plant/lily_pad", "y": 90 },
+      { "model": "block/plant/lily_pad", "y": 180 },
+      { "model": "block/plant/lily_pad", "y": 270 },
+      { "model": "block/plant/lily_pad_pink" },
+      { "model": "block/plant/lily_pad_pink", "y": 90 },
+      { "model": "block/plant/lily_pad_pink", "y": 180 },
+      { "model": "block/plant/lily_pad_pink", "y": 270 },
+      { "model": "block/plant/lily_pad_white" },
+      { "model": "block/plant/lily_pad_white", "y": 90 },
+      { "model": "block/plant/lily_pad_white", "y": 180 },
+      { "model": "block/plant/lily_pad_white", "y": 270 }
+    ]
+  }
+}
