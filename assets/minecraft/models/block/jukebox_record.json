@@ -1,0 +1,261 @@
+{
+    "parent": "block/jukebox",
+    "textures": {
+        "record": "item/music_disc_ward"
+    },
+    "elements": [
+      {
+        "name": "base",
+        "from": [ 0, 0, 0 ],
+        "to": [ 16, 7, 16 ],
+        "faces": {
+          "north": {"uv": [ 0, 9, 16, 16 ], "texture": "#side", "cullface": "north"},
+          "east":  {"uv": [ 0, 9, 16, 16 ], "texture": "#side", "cullface": "east"},
+          "south": {"uv": [ 0, 9, 16, 16 ], "texture": "#side", "cullface": "south"},
+          "west":  {"uv": [ 0, 9, 16, 16 ], "texture": "#side", "cullface": "west"},
+          "up":    {"uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "up"},
+          "down":  {"uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "down"}
+        }
+      },
+      {
+        "name": "north_side",
+        "from": [ 7, 7, 0 ],
+        "to": [ 9, 16, 2.5 ],
+        "faces": {
+          "north": {"uv": [ 7, 0, 9, 9 ], "texture": "#side", "cullface": "north"},
+          "south": {"uv": [ 7, 2.5, 9, 3 ], "texture": "#top", "cullface": "up"},
+          "up":    {"uv": [ 7, 0, 9, 2.5 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "east_side",
+        "from": [ 9, 7, 0 ],
+        "to": [ 16, 16, 16 ],
+        "faces": {
+          "north": {"uv": [ 0, 0, 7, 9 ], "texture": "#side", "cullface": "north"},
+          "east":  {"uv": [ 0, 0, 16, 9 ], "texture": "#side", "cullface": "east"},
+          "south": {"uv": [ 9, 0, 16, 9 ], "texture": "#side", "cullface": "south"},
+          "west":  {"uv": [ 7, 0, 7.5, 16 ], "rotation": 90, "texture": "#top", "cullface": "up"},
+          "up":    {"uv": [ 9, 0, 16, 16 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "south_side",
+        "from": [ 7, 7, 13.5 ],
+        "to": [ 9, 16, 16 ],
+        "faces": {
+          "north": {"uv": [ 7, 13, 9, 13.5 ], "texture": "#top", "cullface": "up"},
+          "south": {"uv": [ 7, 0, 9, 9 ], "texture": "#side", "cullface": "south"},
+          "up":    {"uv": [ 7, 13.5, 9, 16 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "west_side",
+        "from": [ 0, 7, 0 ],
+        "to": [ 7, 16, 16 ],
+        "faces": {
+          "north": {"uv": [ 9, 0, 16, 9 ], "texture": "#side", "cullface": "north"},
+          "east":  {"uv": [ 8.5, 0, 9, 16 ], "rotation": 270, "texture": "#top", "cullface": "up"},
+          "south": {"uv": [ 0, 0, 7, 9 ], "texture": "#side", "cullface": "south"},
+          "west":  {"uv": [ 0, 0, 16, 9 ], "texture": "#side", "cullface": "west"},
+          "up":    {"uv": [ 0, 0, 7, 16 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "north_west_side",
+        "from": [ 7, 7, 2.5 ],
+        "to": [ 7.5, 16, 3 ],
+        "faces": {
+          "east":  {"uv": [ 7.5, 2.5, 8, 3 ], "texture": "#top", "cullface": "up"},
+          "south": {"uv": [ 7, 3, 7.5, 3.5 ], "texture": "#top", "cullface": "up"},
+          "up":    {"uv": [ 7, 2.5, 7.5, 3 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "north_east_side",
+        "from": [ 8.5, 7, 2.5 ],
+        "to": [ 9, 16, 3 ],
+        "faces": {
+          "south": {"uv": [ 8.5, 3, 9, 3.5 ], "texture": "#top", "cullface": "up"},
+          "west":  {"uv": [ 8, 2.5, 8.5, 3 ], "texture": "#top", "cullface": "up"},
+          "up":    {"uv": [ 8.5, 2.5, 9, 3 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "south_east_side",
+        "from": [ 8.5, 7, 13 ],
+        "to": [ 9, 16, 13.5 ],
+        "faces": {
+          "north": {"uv": [ 8.5, 12.5, 9, 13 ], "texture": "#top", "cullface": "up"},
+          "west":  {"uv": [ 8, 13, 8.5, 13.5 ], "texture": "#top", "cullface": "up"},
+          "up":    {"uv": [ 8.5, 13, 9, 13.5 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "south_west_side",
+        "from": [ 7, 7, 13 ],
+        "to": [ 7.5, 16, 13.5 ],
+        "faces": {
+          "north": {"uv": [ 7, 12.5, 7.5, 13 ], "texture": "#top", "cullface": "up"},
+          "east":  {"uv": [ 7, 13, 7.5, 3.5 ], "texture": "#top", "cullface": "up"},
+          "up":    {"uv": [ 7, 13, 7.5, 13.5 ], "texture": "#top", "cullface": "up"}
+        }
+      },
+      {
+        "name": "center_axis",
+        "from": [ 7, 11.5, 7.5 ],
+        "to": [ 9, 12.5, 8.5 ],
+        "faces": {
+          "north": {"uv": [ 7.5, 7, 8.5, 8 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 7.5, 7, 8.5, 8 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 7.5, 7, 8.5, 8 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 7.5, 7, 8.5, 8 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 7.5, 7, 8.5, 8 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_base",
+        "from": [ 7.5, 7, 6.25 ],
+        "to": [ 8.5, 16, 9.75 ],
+        "faces": {
+          "north": {"uv": [ 5.5, 3.5, 6, 12.5 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 10.5, 3.5, 5.5, 12.5 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 10, 3.5, 10.5, 12.5 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 5.5, 3.5, 10.5, 12.5 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 5.5, 3.5, 10.5, 4 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north_0",
+        "from": [ 7.5, 7.5, 5.25 ],
+        "to": [ 8.5, 15.5, 6.25 ],
+        "faces": {
+          "north": {"uv": [ 4, 4, 4.5, 12 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 5.5, 4, 4, 12 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 4, 4, 5.5, 12 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 4, 4, 5.5, 4.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north_1",
+        "from": [ 7.5, 8, 4.5 ],
+        "to": [ 8.5, 15, 5.25 ],
+        "faces": {
+          "north": {"uv": [ 3, 4.5, 3.5, 11.5 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 4, 4.5, 3, 11.5 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 3, 4.5, 4, 11.5 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 3, 4.5, 4, 5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north_2",
+        "from": [ 7.5, 8.5, 3.75 ],
+        "to": [ 8.5, 14.5, 4.5 ],
+        "faces": {
+          "north": {"uv": [ 2, 5, 2.5, 11 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 3, 5, 2, 11 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 2, 5, 3, 11 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 2, 5, 3, 5.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north_3",
+        "from": [ 7.5, 9, 3.4 ],
+        "to": [ 8.5, 14, 3.75 ],
+        "faces": {
+          "north": {"uv": [ 1.5, 5.5, 2, 10.5 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 2, 5.5, 1.5, 10.5 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 1.5, 5.5, 2, 10.5 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 1.5, 5.5, 2, 6 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north_4",
+        "from": [ 7.5, 9.5, 3.05 ],
+        "to": [ 8.5, 13.5, 3.4 ],
+        "faces": {
+          "north": {"uv": [ 1, 6, 1.5, 10 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 1.5, 6, 1, 10 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 1, 6, 1.5, 10 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 1, 6, 1.5, 6.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north",
+        "from": [ 7.5, 10.5, 2.7 ],
+        "to": [ 8.5, 12.5, 3.05 ],
+        "faces": {
+          "north": {"uv": [ 0.5, 7, 1, 9 ], "texture": "#record", "cullface": "up"},
+          "east":  {"uv": [ 1, 7, 0.5, 9 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 0.5, 7, 1, 9 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 0.5, 7, 1, 7.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_north_0",
+        "from": [ 7.5, 7.5, 9.75 ],
+        "to": [ 8.5, 15.5, 10.75 ],
+        "faces": {
+          "east":  {"uv": [ 12, 4, 10.5, 12 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 11.5, 4, 12, 12 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 10.5, 4, 12, 12 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 10.5, 4, 12, 4.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_south_1",
+        "from": [ 7.5, 8, 10.75 ],
+        "to": [ 8.5, 15, 11.5 ],
+        "faces": {
+          "east":  {"uv": [ 13, 4.5, 12, 11.5 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 12.5, 4.5, 13, 11.5 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 12, 4.5, 13, 11.5 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 12, 4.5, 13, 5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_south_2",
+        "from": [ 7.5, 8.5, 11.5 ],
+        "to": [ 8.5, 14.5, 12.25 ],
+        "faces": {
+          "east":  {"uv": [ 14, 5, 13, 11 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 13.5, 5, 14, 11 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 13, 5, 14, 11 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 13, 5, 14, 5.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_south_3",
+        "from": [ 7.5, 9, 12.25 ],
+        "to": [ 8.5, 14, 12.6 ],
+        "faces": {
+          "east":  {"uv": [ 14.5, 5.5, 14, 10.5 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 14, 5.5, 14.5, 10.5 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 14, 5.5, 14.5, 10.5 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 14, 5.5, 14.5, 6 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_south_4",
+        "from": [ 7.5, 9.5, 12.6 ],
+        "to": [ 8.5, 13.5, 12.95 ],
+        "faces": {
+          "east":  {"uv": [ 15, 6, 14.5, 10 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 14.5, 6, 15, 10 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 14.5, 6, 15, 10 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 14.5, 6, 15, 6.5 ], "texture": "#record", "cullface": "up"}
+        }
+      },
+      {
+        "name": "record_south",
+        "from": [ 7.5, 10.5, 12.95 ],
+        "to": [ 8.5, 12.5, 13.3 ],
+        "faces": {
+          "east":  {"uv": [ 15.5, 7, 15, 9 ], "texture": "#record", "cullface": "up"},
+          "south": {"uv": [ 15, 7, 15.5, 9 ], "texture": "#record", "cullface": "up"},
+          "west":  {"uv": [ 15, 7, 15.5, 9 ], "texture": "#record", "cullface": "up"},
+          "up":    {"uv": [ 15, 7, 15.5, 7.5 ], "texture": "#record", "cullface": "up"}
+        }
+      }
+    ]
+}
