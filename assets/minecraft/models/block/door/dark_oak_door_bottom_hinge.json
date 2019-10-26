@@ -1,4 +1,5 @@
 {
+    "__comment": "Model made by LambdAurora",
     "parent": "block/door_bottom_rh",
     "textures": {
         "bottom": "block/door/dark_oak_door_bottom",
@@ -29,8 +30,7 @@
                 "west":  {"uv": [ 12, 0, 11, 0.5 ], "texture": "#bottom"},
                 "down":  {"uv": [ 12, 0, 11, 0.5 ], "rotation": 90, "texture": "#bottom"}
             }
-        }
-        ,
+        },
         {
             "name": "handle_down",
             "from": [ -0.5, 15, 4.5 ],
@@ -45,13 +45,13 @@
         }
     ],
     "groups": [
-      {
-        "name": "base",
-        "children": [0]
-      },
-      {
-        "name": "handle",
-        "children": [1, 2]
-      }
+        {
+            "name": "base",
+            "children": [0]
+        },
+        {
+            "name": "handle",
+            "children": [1, 2]
+        }
     ]
 }
