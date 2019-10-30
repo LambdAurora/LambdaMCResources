@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "": [
+            {"model": "block/plant/cactus"},
+            {"model": "block/plant/cactus"},
+            {"model": "block/plant/cactus"},
+            {"model": "block/plant/cactus_flower_pink"},
+            {"model": "block/plant/cactus_flower_magenta"},
+            {"model": "block/plant/cactus_flower_red"},
+            {"model": "block/plant/cactus_flower_yellow"},
+            {"model": "block/plant/cactus_flower_white"}
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "__comment": "Model made by LambdAurora",
+    "parent": "block/plant/cactus_flower",
+    "textures": {
+        "flower": "block/plant/cactus_flower_pink"
+    }
+}
