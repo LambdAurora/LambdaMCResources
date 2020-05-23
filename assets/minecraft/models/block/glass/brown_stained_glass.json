@@ -1,0 +1,7 @@
+{
+  "__comment": "Model made by LambdAurora",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "block/glass/brown_stained_glass"
+  }
+}

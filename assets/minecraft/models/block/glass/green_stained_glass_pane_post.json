@@ -1,0 +1,8 @@
+{
+  "__comment": "Model made by LambdAurora",
+  "parent": "block/template/glass_pane_post",
+  "textures": {
+    "edge": "block/glass/green_stained_glass_pane_top",
+    "pane": "block/glass/green_stained_glass"
+  }
+}

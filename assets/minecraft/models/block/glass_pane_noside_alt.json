@@ -1,7 +1,0 @@
-{
-  "__comment": "Model made by LambdAurora",
-  "parent": "block/template_glass_pane_noside_alt",
-  "textures": {
-    "pane": "block/glass/glass"
-  }
-}

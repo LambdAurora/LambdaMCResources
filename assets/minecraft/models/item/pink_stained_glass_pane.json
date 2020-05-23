@@ -1,0 +1,7 @@
+{
+    "__comment": "Model made by LambdAurora",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "block/glass/pink_stained_glass"
+    }
+}

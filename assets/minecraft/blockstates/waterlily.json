@@ -1,18 +1,18 @@
 {
-  "variants": {
-    "normal": [
-      { "model": "plant/lily_pad" },
-      { "model": "plant/lily_pad", "y": 90 },
-      { "model": "plant/lily_pad", "y": 180 },
-      { "model": "plant/lily_pad", "y": 270 },
-      { "model": "plant/lily_pad_pink" },
-      { "model": "plant/lily_pad_pink", "y": 90 },
-      { "model": "plant/lily_pad_pink", "y": 180 },
-      { "model": "plant/lily_pad_pink", "y": 270 },
-      { "model": "plant/lily_pad_white" },
-      { "model": "plant/lily_pad_white", "y": 90 },
-      { "model": "plant/lily_pad_white", "y": 180 },
-      { "model": "plant/lily_pad_white", "y": 270 }
-    ]
-  }
+    "variants": {
+        "normal": [
+            { "model": "plant/lily_pad" },
+            { "model": "plant/lily_pad", "y": 90 },
+            { "model": "plant/lily_pad", "y": 180 },
+            { "model": "plant/lily_pad", "y": 270 },
+            { "model": "plant/lily_pad_pink" },
+            { "model": "plant/lily_pad_pink", "y": 90 },
+            { "model": "plant/lily_pad_pink", "y": 180 },
+            { "model": "plant/lily_pad_pink", "y": 270 },
+            { "model": "plant/lily_pad_white" },
+            { "model": "plant/lily_pad_white", "y": 90 },
+            { "model": "plant/lily_pad_white", "y": 180 },
+            { "model": "plant/lily_pad_white", "y": 270 }
+        ]
+    }
 }
