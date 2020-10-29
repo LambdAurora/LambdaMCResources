@@ -1,4 +1,4 @@
 {
-    "__comment": "Model made by LambdAurora",
-    "parent": "lambdaext:block/door/dark_oak_glass_door_bottom"
+  "__comment": "Model made by LambdAurora",
+  "parent": "lambdaext:block/door/dark_oak_glass_door_bottom"
 }

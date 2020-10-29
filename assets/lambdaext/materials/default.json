@@ -1,0 +1,6 @@
+{
+  "vertexSource": "canvas:shaders/material/default.vert",
+  "fragmentSource": "canvas:shaders/material/default.frag",
+  "disableAo": false,
+  "disableDiffuse": false
+}
