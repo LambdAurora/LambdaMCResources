@@ -1,0 +1,8 @@
+{
+  "defaultMaterial": "fabric:standard",
+  "variants": {
+    "hanging=true,waterlogged=false": {
+      "defaultMaterial": "canvas:low_foliage"
+    }
+  }
+}
