@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "lambdaext:item/amethyst/amethyst_axe"
-  }
-}
